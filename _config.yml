@@ -1,14 +1,10 @@
-title: "TryHackMe CTF"
-description: "Professional CTF documentation."
-
+title: "ContAInment — TryHackMe CTF"
+description: "Portfolio-ready DFIR walkthrough of the ContAInment incident-response challenge."
 theme: jekyll-theme-primer
-
 plugins:
   - jekyll-relative-links
-
 relative_links:
   enabled: true
   collections: true
-
 include:
   - docs
