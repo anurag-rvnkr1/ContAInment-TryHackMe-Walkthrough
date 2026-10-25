@@ -1,6 +1,6 @@
 <div class="ctf-hero">
 
-  <h1>Fool's Mate, Revenge</h1>
+  <h1>ContAInment</h1>
 
   <p>
     A TryHackMe web security assessment investigating prototype pollution in a Node.js chess application, with a focus on unsafe recursive object merging, inherited configuration state, and a server-side reward-gate bypass.
@@ -47,7 +47,7 @@
 
 ## Mission and Overview
 
-Fool's Mate, Revenge is a TryHackMe web security challenge involving a Node.js chess application. The investigation examines how unsafe recursive object merging can interact with JavaScript's prototype chain and influence a server-side authorization decision.
+ContAInment is a TryHackMe web security challenge involving a Node.js chess application. The investigation examines how unsafe recursive object merging can interact with JavaScript's prototype chain and influence a server-side authorization decision.
 
 The application's reward mechanism provides the key security boundary. A valid checkmate does not immediately unlock the reward because the backend also evaluates application configuration state. The documented investigation follows this behavior to the settings endpoint, where user-controlled JSON is processed.
 
